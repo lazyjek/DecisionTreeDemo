@@ -1,0 +1,19 @@
+@relation pima_diabetes
+@attribute 'Humidity' { high, normal }
+@attribute 'Wind' { strong, weak }
+@attribute 'class' { negative, positive}
+@data
+high, weak,negative
+high, strong, negative
+high, weak, positive
+high, weak, positive
+normal, weak, positive
+normal,strong, negative
+normal,strong, positive
+high, weak, negative
+normal, weak, positive
+normal, weak, positive
+normal,strong, positive
+high,strong, positive
+normal, weak, positive
+high, strong, negative
